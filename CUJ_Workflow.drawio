@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.0">
   <diagram name="Page-1" id="twbJQqzlz6oJnwpDuxlk">
-    <mxGraphModel dx="1895" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2243" dy="811" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,15 +53,8 @@
         <mxCell id="digXQF9lAOaM3-9nohVz-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="else (False)" vertex="1">
           <mxGeometry height="30" width="60" x="-120" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="digXQF9lAOaM3-9nohVz-38" edge="1" parent="1" source="digXQF9lAOaM3-9nohVz-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="40" y="560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="digXQF9lAOaM3-9nohVz-39" edge="1" parent="1" source="digXQF9lAOaM3-9nohVz-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="560" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-5" edge="1" parent="1" source="digXQF9lAOaM3-9nohVz-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="digXQF9lAOaM3-9nohVz-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="digXQF9lAOaM3-9nohVz-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Home Screen&lt;br&gt;(Main Screen)" vertex="1">
           <mxGeometry height="40" width="120" x="220" y="425" as="geometry" />
@@ -72,11 +65,34 @@
         <mxCell id="digXQF9lAOaM3-9nohVz-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Invalid credentials" vertex="1">
           <mxGeometry height="40" width="100" x="-260" y="425" as="geometry" />
         </mxCell>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-15" edge="1" parent="1" source="digXQF9lAOaM3-9nohVz-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="digXQF9lAOaM3-9nohVz-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navigation Bar" vertex="1">
-          <mxGeometry height="40" width="120" x="-20" y="560" as="geometry" />
+          <mxGeometry height="40" width="120" x="250" y="320" as="geometry" />
         </mxCell>
         <mxCell id="digXQF9lAOaM3-9nohVz-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="CUJ AI Chatbot" vertex="1">
-          <mxGeometry height="40" width="120" x="230" y="560" as="geometry" />
+          <mxGeometry height="40" width="120" x="100" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-1" edge="1" parent="1" source="digXQF9lAOaM3-9nohVz-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.497;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" target="digXQF9lAOaM3-9nohVz-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-4" edge="1" parent="1" source="digXQF9lAOaM3-9nohVz-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.866;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" target="digXQF9lAOaM3-9nohVz-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-18" edge="1" parent="1" source="Ctdxqwgo5J9Fz1wBEhcI-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="digXQF9lAOaM3-9nohVz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-16" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+          <mxGeometry height="70" width="50" x="-7.49" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Database" vertex="1">
+          <mxGeometry height="30" width="60" x="-12.49" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ctdxqwgo5J9Fz1wBEhcI-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Entering &lt;br&gt;Credentials" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
